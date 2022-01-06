@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.text-title{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    text-decoration: none;
+    color: #000;
+}
+.text-title:hover{
+    color: #000;
+}
+
+.nav-link.active{
+    font-weight: bold;
+    color: #000;
+}
+.nav-link{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color: #838383;
+    text-align: center;
+}
+
+.nav-link:hover{
+    font-weight: bold;
+    color: #000;
+}
+
+.icon-link i{
+    color: #838383;
+    font-size: 25px;
+    cursor: pointer;
+}
+.icon-link i:hover{
+    color: #000;
+}
+
