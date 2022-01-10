@@ -1,15 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
 import './container/home/home';
 import reportWebVitals from './reportWebVitals';
 import Home from './container/home/home';
+import Detail from './container/detail';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Home />
-
-  </React.StrictMode>,
+    <React.StrictMode>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={ <Home /> } />
+            <Route path='/Home' element={<Home />} />
+            <Route path='/Produk/:id/:name' element= { <Detail /> } />
+          </Routes>
+        </BrowserRouter>
+    </React.StrictMode>,
   document.getElementById('root')
 );
 

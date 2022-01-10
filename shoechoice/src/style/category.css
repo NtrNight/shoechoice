@@ -1,6 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+.category-bar{
+    font-family: 'Roboto Condensed', serif;
+    color: #838383;
+}
+.category-bar h3{
+    font-size: 25px;
+}
+
+.title-name-category{
+    font-size: 20px;
+}
+
+.gender,
+.age,
+.type,
+.price{
+    border-bottom: 1px solid #838383;
+}
+
+.arrow{
+    cursor: pointer;
+}
+.arrow:hover{
+    color: #000;
+}
+
+.check-box-gender,
+.check-box-age,
+.check-box-type,
+.input-price,
+.color-field{
+    transition: max-height .5s;
+}
+
+.color-field{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+.check-box-gender.parentBoxGender,
+.check-box-age.parentBoxAge,
+.check-box-type.parentBoxType,
+.input-price.parentBoxInput,
+.color-field.parentColor{
+    visibility: hidden;
+    max-height: 0px;
+    overflow: hidden;
+}

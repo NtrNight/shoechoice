@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.item-header-field{
+    border-bottom: 2px solid #838383;
+}
+
+.title-name{
+    font-size: 35px;
+    font-family: 'Roboto Condensed', serif;
+    color: #545454;
+}
+
+.text-short-by{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', serif;
+    color: #545454;
+}
+
+select{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', serif;
+    color: #838383;
+}
+
+.item-main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: 15em;
+    grid-gap: 3em;
+}
+
+.item-inner{
+    width: 200px;
+    font-family: 'Roboto COndensed', serif;
+}
+.item-inner img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+.text-link{
+    color: #838383;
+}
+.text-link:hover{
+    color: #272727;
+}
+.text-name-product{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.text-color{
+    font-weight: 300;
+    font-style: italic;
+}
+.text-price{
+    font-weight: 600;
+    font-size: 1.1em;
+}

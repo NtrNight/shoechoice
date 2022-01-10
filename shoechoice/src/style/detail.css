@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
+.detail-inner{
+    flex: 1;
+}
+
+.img-main{
+    /* display: grid;
+    grid-template-columns: auto auto; */
+    /* grid-auto-rows: 15em; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    gap: 10px;
+}
+
+.img-main-inner{
+    width: 200px;
+    /* max-height: 200px; */
+}
+.img-main-inner img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.main-header{
+    border-bottom: 1px solid #848484;
+}
+
+.text-title-main h3{
+    font-family: 'Roboto', serif;
+    font-size: 45px;
+    color: #545454;
+}
+.text-type-main p{
+    font-family: 'Roboto', serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: #545454;
+    font-style: italic;
+}
+.text-price-main p{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Roboto', serif;
+}
+.text-select-size-main{
+    font-family: 'Roboto', serif;
+    color: #545454;
+}
+.text-danger{
+    font-family: 'Roboto', serif;
+    font-style: italic;
+}
+.btn-add-to-cart,
+.btn-add-favorite{
+    background-color: #545454;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+}
+.btn-add-to-cart:hover,
+.btn-add-favorite:hover{
+    background-color: #3a3a3a;
+}
+
+.text-detail-main{
+    font-family: 'Roboto', serif;
+    color: #545454;
+    border-bottom: 1px solid #848484;
+}
+.detail-title{
+    font-size: 30px;
+}
+.text-detail{
+    text-indent: 1em;
+}
+.free-delivery-text{
+    font-family: 'Roboto', serif;
+    color: #545454;
+}
+.free-delivery-text p{
+    font-size: 25px;
+}
+
+.arrow{
+    cursor: pointer;
+}
+.arrow:hover{
+    color: #000;
+}
+.riview-text{
+    border-bottom: 1px solid #848484;
+}
+.riview-title{
+    font-family: 'Roboto', serif;
+    color: #545454;
+    font-size: 30px;
+    font-weight: bold;
+}
+.write-text a{
+    font-family: 'Roboto', serif;
+    color: #545454;
+    font-size: 18px;
+    width: max-content;
+}
+.write-text a:hover{
+    color: #000;
+}
+.title-wearing{
+    font-size: 30px;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+}
+.img-wearing{
+    width: 100%;
+    gap: 10px;
+}
+.img-wear-inner{
+    width: 170px;
+    height: 200px;
+    overflow: hidden;
+}
+.img-wear-inner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.text-wear-name{
+    font-size: 18px;
+    font-family: 'Roboto', serif;
+}
