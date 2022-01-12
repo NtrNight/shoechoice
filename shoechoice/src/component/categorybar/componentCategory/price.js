@@ -26,25 +26,25 @@ export default class Price extends React.Component {
           ></i>
         </div>
         <div className="input-price d-flex flex-column mb-2">
-          <div className="input-group w-100 col my-1">
+          <div className="input-group w-100 col my-1 position-static">
             <i
               className="bi bi-currency-dollar input-group-text p-1"
               id="basic-addon1"
             ></i>
             <input
-              className="form-control shadow-none p-1"
+              className="form-control shadow-none p-1 position-static"
               type=""
               placeholder="Maximum Price"
               aria-label="Search"
             />
           </div>
-          <div className="input-group w-100 col my-1">
+          <div className="input-group w-100 col my-1 position-static">
             <i
               className="bi bi-currency-dollar input-group-text p-1"
               id="basic-addon1"
             ></i>
             <input
-              className="form-control shadow-none p-1"
+              className="form-control shadow-none p-1 position-static"
               type=""
               placeholder="Minimum Price"
               aria-label="Search"

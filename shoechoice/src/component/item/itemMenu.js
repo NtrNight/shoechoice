@@ -6,7 +6,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/js/bootstrap.min";
 import "../../style/item.css";
 import { Link, Route, Router } from "react-router-dom";
-import Detail from "../../container/detail";
 
 
 class ItemMenu extends React.Component {
@@ -14,100 +13,99 @@ class ItemMenu extends React.Component {
     const itemList = Shoes.map((shoe) => {
       return (
           
-            <div className="item-inner" key={shoe.id}>
+            <div className="item-inner col-12 col-lg-4 col-md-4 col-sm-6 col-6 col-xl-3 col-xxl-2" key={shoe.id}>
                 <Link to={
                   {
                     pathname : `/Produk/${shoe.no_series}/${shoe.name_shoes}`,
                   }
-                } className="text-link text-decoration-none">
-                  <img src={`${shoe.img_poster}`} alt={`${shoe.name_shoes}`}></img>
+                  } 
+                  className="img-link text-link text-decoration-none">
+                  <img src={`${shoe.img_poster}`} alt={`${shoe.name_shoes}`} className="img-fluid"></img>
                 </Link>
-                <div className="row d-flex align-items-center mt-2">
-                    <div className="col box-name-rate">
-                    <Link to={
-                      {
-                        pathname : `/Produk/${shoe.no_series}/${shoe.name_shoes}`,
-                      }
-                    } className="text-link text-decoration-none">
-                      <p className="text-name-product">{shoe.name_shoes}</p>
-                    </Link>
+                <div className="row mt-2 p-0 mx-0">
+                    <div className="col-12 col-lg-8 col-md-12 col-sm-12 box-name-rate row p-0 mx-0">
+                      <Link to={
+                        {
+                          pathname : `/Produk/${shoe.no_series}/${shoe.name_shoes}`,
+                        }
+                      } className="text-link text-decoration-none p-0">
+                        <p className="text-name-product m-0">{shoe.name_shoes}</p>
+                      </Link>
 
-                    {(shoe.rate_shoes === 1 ) ?
-                    <div className="row">
-                        <i class="bi bi-star-fill col"></i>
-                        <i class="bi bi-star col"></i>
-                        <i class="bi bi-star col"></i>
-                        <i class="bi bi-star col"></i>
-                        <i class="bi bi-star col"></i>
-                    </div> : ''}
+                      {(shoe.rate_shoes === 1 ) ?
+                      <div className="col-12 p-0 mx-0">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star"></i>
+                          <i class="bi bi-star"></i>
+                          <i class="bi bi-star"></i>
+                          <i class="bi bi-star"></i>
+                      </div> : ''}
 
-                    {(shoe.rate_shoes === 2 ) ?
-                    <div className="row">
-                        <i class="bi bi-star-fill col"></i>
-                        <i class="bi bi-star-fill col"></i>
-                        <i class="bi bi-star col"></i>
-                        <i class="bi bi-star col"></i>
-                        <i class="bi bi-star col"></i>
-                    </div> : ''}
+                      {(shoe.rate_shoes === 2 ) ?
+                      <div className="col-12 p-0 mx-0">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star"></i>
+                          <i class="bi bi-star"></i>
+                          <i class="bi bi-star"></i>
+                      </div> : ''}
 
-                    {(shoe.rate_shoes === 3 ) ?
-                    <div className="row">
-                        <i class="bi bi-star-fill col"></i>
-                        <i class="bi bi-star-fill col"></i>
-                        <i class="bi bi-star-fill col"></i>
-                        <i class="bi bi-star col"></i>
-                        <i class="bi bi-star col"></i>
-                    </div> : ''}
+                      {(shoe.rate_shoes === 3 ) ?
+                      <div className="col-12 p-0 mx-0">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star"></i>
+                          <i class="bi bi-star"></i>
+                      </div> : ''}
 
-                    {(shoe.rate_shoes === 4) ?
-                    <div className="row">
-                        <i class="bi bi-star-fill col"></i>
-                        <i class="bi bi-star-fill col"></i>
-                        <i class="bi bi-star-fill col"></i>
-                        <i class="bi bi-star-fill col"></i>
-                        <i class="bi bi-star col"></i>
-                    </div> : ''}
+                      {(shoe.rate_shoes === 4) ?
+                      <div className="col-12 p-0 mx-0">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star"></i>
+                      </div> : ''}
 
-                    {(shoe.rate_shoes === 5) ?
-                    <div className="row">
-                        <i class="bi bi-star-fill col"></i>
-                        <i class="bi bi-star-fill col"></i>
-                        <i class="bi bi-star-fill col"></i>
-                        <i class="bi bi-star-fill col"></i>
-                        <i class="bi bi-star-fill col"></i>
-                    </div> : ''}
+                      {(shoe.rate_shoes === 5) ?
+                      <div className="col-12 p-0 mx-0">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                      </div> : ''}
                     </div>
-                    <div className="col box-price-color d-flex flex-column align-items-end">
-                    <p className="text-price">${shoe.price_shoes}</p>
-                    <p className="text-color">{shoe.color_shoes.length} Colors</p>
+
+                    <div className="col-12 col-lg-4 col-md-12 col-sm-12 text-lg-end box-price-color p-0">
+
+                      <p className="text-price p-0 m-0">${shoe.price_shoes}</p>
+                      <p className="text-color p-0 m-0">{shoe.color_shoes.length} Colors</p>
+
                     </div>
+
                 </div>
             </div>
       );
     });
     return (
-      <div className="Item col">
-        <div className="row item-header-field align-items-center">
-          <div className="col-6 mb-2">
-            <h4 className="title-name ms-3">All Shoes</h4>
+      <div className="Item col-lg-9 mb-5 mt-4 p-2">
+        <div class="row item-header-field align-items-center justify-content-between w-100 m-0 mb-2 pb-3">
+          <div class="col-12 col-md-6 col-lg-6 col-sm-12 p-0">
+            <h4 class="title-name">All Shoes</h4>
           </div>
-          <div className="col-6 d-flex align-items-center justify-content-end mb-2">
-            <h5 className="text-short-by  mx-3 mt-2">Short By</h5>
-            <select
-              class="form-select w-50 shadow-none p-1"
-              aria-label="Default select example"
-            >
-              <option value="Most Suitable" selected>
-                Most Suitable
-              </option>
-              <option value="Review">Review</option>
-              <option value="Latest">Latest</option>
-              <option value="Highest Price">Highest Price</option>
-              <option value="Lowest Price">Lowest Price</option>
-            </select>
-          </div>
+          <div class="col-12 col-md-6 col-lg-6 col-sm-12 row align-items-center justify-content-md-end justify-content-lg-end p-0 mx-0">
+              <label class="form-label text-short-by w-auto col-6 col-md-6 me-md-2 me-lg-2 me-2 text-md-end text-sm-end p-0 m-0" for="inputState">Short By</label>
+              <select class="form-select col-6 w-75 col-md-6 shadow-none " aria-label="Default select example" id="inputState">
+                <option value="Most Suitable">Most Suitable</option>
+                <option value="Review">Review</option><option value="Latest">Latest</option>
+                <option value="Highest Price">Highest Price</option>
+                <option value="Lowest Price">Lowest Price</option>
+                </select>
+            </div>
         </div>
-        <div className="item-main mt-3 ms-3 row">
+        <div className="item-main row gy-3 p-0 m-0">
           {itemList}
         </div>
       </div>

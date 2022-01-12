@@ -10,13 +10,15 @@ class CategoryBar extends React.Component{
 
     render(){
         return(
-            <div className="category-bar card shadow-sm col-3 p-3">
-                <h3 className="text-center my-2">Category</h3>
-                <Age />
-                <Gender />
-                <Price />
-                <Type />
-                <Color />
+            <div className="category-bar col-lg-3 mt-4 p-2">
+                <div className="category-inner position-static card shadow-sm p-2">
+                    <h3 className="text-center my-2">Category</h3>
+                    <Age />
+                    <Gender />
+                    <Price />
+                    <Type />
+                    <Color />
+                </div>
             </div>
         );
     };

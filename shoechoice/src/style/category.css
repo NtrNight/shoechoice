@@ -5,6 +5,7 @@
 .category-bar{
     font-family: 'Roboto Condensed', serif;
     color: #838383;
+    height: max-content;
 }
 .category-bar h3{
     font-size: 25px;
@@ -34,12 +35,6 @@
 .input-price,
 .color-field{
     transition: max-height .5s;
-}
-
-.color-field{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
 }
 
 .check-box-gender.parentBoxGender,

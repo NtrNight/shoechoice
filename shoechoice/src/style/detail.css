@@ -9,24 +9,11 @@
 .detail-inner{
     flex: 1;
 }
-
-.img-main{
-    /* display: grid;
-    grid-template-columns: auto auto; */
-    /* grid-auto-rows: 15em; */
-    /* display: flex;
-    flex-wrap: wrap; */
-    gap: 10px;
-}
-
 .img-main-inner{
-    width: 200px;
-    /* max-height: 200px; */
+    height: max-content;
 }
 .img-main-inner img{
     width: 100%;
-    object-fit: cover;
-    object-position: center;
 }
 .main-header{
     border-bottom: 1px solid #848484;
@@ -121,16 +108,13 @@
 }
 .img-wearing{
     width: 100%;
-    gap: 10px;
 }
 .img-wear-inner{
-    width: 170px;
-    height: 200px;
     overflow: hidden;
 }
 .img-wear-inner img{
     width: 100%;
-    height: 100%;
+    height: 200px;
     object-fit: cover;
     object-position: center;
 }

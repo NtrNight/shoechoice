@@ -12,29 +12,29 @@ export default class Detail extends React.Component{
             <div className="detail">
                 <div className="detail-inner">
                     <AppBar/>
-                    <div className="container mx-auto my-lg-5">
+                    <div className="container-lg container-md container-sm my-5">
                         <div className="main-header row pb-5">
-                            <div className="col-6 img-main row row-cols-2">
-                                <div className="img-main-inner col-2">
-                                    <img className=" rounded-3 img-fluid" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"></img>
+                            <div className="col-md-6 col-lg-6 img-main row gy-lg-2 gy-md-2 gy-sm-2 g-2 p-0 m-0">
+                                <div className="img-main-inner col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <img className="rounded-3 img-fluid" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"></img>
                                 </div>
-                                <div className="img-main-inner col-2">
-                                    <img className=" rounded-3 img-fluid" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"></img>
+                                <div className="img-main-inner col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <img className="rounded-3 img-fluid" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"></img>
                                 </div>
-                                <div className="img-main-inner col-2">
-                                    <img className=" rounded-3 img-fluid" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"></img>
+                                <div className="img-main-inner col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <img className="rounded-3 img-fluid" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"></img>
                                 </div>
-                                <div className="img-main-inner col-2">
-                                    <img className=" rounded-3 img-fluid" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"></img>
+                                <div className="img-main-inner col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <img className="rounded-3 img-fluid" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"></img>
                                 </div>
-                                <div className="img-main-inner col-2">
-                                    <img className=" rounded-3 img-fluid" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"></img>
+                                <div className="img-main-inner col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <img className="rounded-3 img-fluid" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"></img>
                                 </div>
-                                <div className="img-main-inner col-2">
-                                    <img className=" rounded-3 img-fluid" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"></img>
+                                <div className="img-main-inner col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <img className="rounded-3 img-fluid" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"></img>
                                 </div>
                             </div>
-                            <div className="col-4 text-main">
+                            <div className="col-md-6 col-lg-6 text-main mt-lg-0 mt-md-0 mt-sm-4 mt-4">
                                 <div className="text-title-main">
                                     <h3>Nike Revolt</h3>
                                 </div>
@@ -94,7 +94,7 @@ export default class Detail extends React.Component{
                                 <div className="text-detail-main">
                                     <p className="detail-title">Detail : Nike Revolt</p>
                                     <p className="text-detail mb-2">
-                                        Voluptate nulla anim occaecat proident fugiat cillum laborum culpa labore irure occaecat pariatur dolore fugiat. Deserunt officia consectetur excepteur consequat irure esse voluptate culpa ea pariatur non. Incididunt ea dolore anim nulla laborum sint sint cillum cillum aliquip. Aliquip amet exercitation sunt laborum magna laborum officia esse laborum ut. Incididunt ea anim elit duis.
+                                        Voluptate nulla anim occaecat proident fugiat cillum laborum culpa labore irure occaecat pariatur dolore fugiat.
                                     </p>
                                 </div>
                                 <div className="mt-3 free-delivery-text d-flex justify-content-between align-items-center">
@@ -119,41 +119,49 @@ export default class Detail extends React.Component{
                         <div className="text-wearing">
                             <p className="title-wearing mb-3">How others are wearing it</p>
                             <div className="img-wearing row">
-                                <div className="wear-inner col">
+                                <div className="wear-inner col-lg-2 col-md-3 my-2 col-sm-4 col-6">
                                     <div className="img-wear-inner rounded-3">
-                                        <img className="" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"></img>
+                                        <img className="img-fluid" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"></img>
                                     </div>
                                     <p className="text-wear-name mt-1">
                                         Mike Tyson
                                     </p>
                                 </div>
-                                <div className="wear-inner col">
+                                <div className="wear-inner col-lg-2 col-md-3 my-2 col-sm-4 col-6">
                                     <div className="img-wear-inner rounded-3">
-                                        <img className="" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"></img>
+                                        <img className="img-fluid" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"></img>
                                     </div>
                                     <p className="text-wear-name mt-1">
                                         Mike Tyson
                                     </p>
                                 </div>
-                                <div className="wear-inner col">
+                                <div className="wear-inner col-lg-2 col-md-3 my-2 col-sm-4 col-6">
                                     <div className="img-wear-inner rounded-3">
-                                        <img className="" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"></img>
+                                        <img className="img-fluid" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"></img>
                                     </div>
                                     <p className="text-wear-name mt-1">
                                         Mike Tyson
                                     </p>
                                 </div>
-                                <div className="wear-inner col">
+                                <div className="wear-inner col-lg-2 col-md-3 my-2 col-sm-4 col-6">
                                     <div className="img-wear-inner rounded-3">
-                                        <img className="" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"></img>
+                                        <img className="img-fluid" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"></img>
                                     </div>
                                     <p className="text-wear-name mt-1">
                                         Mike Tyson
                                     </p>
                                 </div>
-                                <div className="wear-inner col">
+                                <div className="wear-inner col-lg-2 col-md-3 my-2 col-sm-4 col-6">
                                     <div className="img-wear-inner rounded-3">
-                                        <img className="" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"></img>
+                                        <img className="img-fluid" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"></img>
+                                    </div>
+                                    <p className="text-wear-name mt-1">
+                                        Mike Tyson
+                                    </p>
+                                </div>
+                                <div className="wear-inner col-lg-2 col-md-3 my-2 col-sm-4 col-6">
+                                    <div className="img-wear-inner rounded-3">
+                                        <img className="img-fluid" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"></img>
                                     </div>
                                     <p className="text-wear-name mt-1">
                                         Mike Tyson

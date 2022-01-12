@@ -11,7 +11,7 @@
 
 .text-title{
     font-family: 'Great Vibes', cursive;
-    font-size: 40px;
+    font-size: 50px;
     text-decoration: none;
     color: #000;
 }
@@ -20,27 +20,27 @@
 }
 
 .nav-link.active{
+    width: 100%;
     font-weight: bold;
     color: #000;
+    border-bottom: 2px solid #000;
 }
 .nav-link{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
     color: #838383;
-    text-align: center;
 }
 
 .nav-link:hover{
     font-weight: bold;
     color: #000;
 }
-
-.icon-link i{
+.icon-link{
     color: #838383;
     font-size: 25px;
     cursor: pointer;
 }
-.icon-link i:hover{
+.icon-link:hover{
     color: #000;
 }
 

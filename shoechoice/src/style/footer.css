@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 footer{
-    position: relative;
     bottom: 0;
     background-color: #EFEFEF;
 }
@@ -39,4 +38,15 @@ footer{
 .follow-icon{
     font-size: 20px;
     color: white;
+}
+
+.text-quick-link{
+    font-family: 'Roboto', serif;
+    color: #545454;
+}
+.text-quick-link:hover{
+    color: #313131;
+}
+.copyright-text{
+    height: max-content;
 }

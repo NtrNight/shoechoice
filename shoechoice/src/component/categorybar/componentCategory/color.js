@@ -23,18 +23,17 @@ export default class Color extends React.Component {
     const listColor = Colors.map((color) => {
 
         return(
-            <div className="color-inner mx-1 d-flex flex-column align-items-center" key={color.id}>
-                <a href="#">
-                <div
-                    style={{
-                      backgroundColor: `${color.code}`,
-                      width: `24px`,
-                      height: `24px`
-                    }}
-                    className="rounded-circle border border-1 border-secondary"
-                  ></div>
+            <div className="color-inner p-0 col-lg-3 col-md-3 col-sm-3 col-3" key={color.id}>
+                <a href="#"
+                style={{
+                  display: 'block',
+                  backgroundColor: `${color.code}`,
+                  width: `24px`,
+                  height: `24px`,
+                }}
+                className="rounded-circle border border-1 border-secondary p-0 my-0 mx-auto">
                 </a>
-                <p className="text-dark mt-2"> {color.name} </p>
+                <p className="text-dark mt-2 text-center"> {color.name} </p>
             </div>
         )
 
@@ -48,7 +47,7 @@ export default class Color extends React.Component {
             onClick={this.arrowClickColor}
           ></i>
         </div>
-        <div className="color-field py-1">
+        <div className="color-field row g-2">
             {listColor}
         </div>
       </div>

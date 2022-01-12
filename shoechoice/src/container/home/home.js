@@ -9,10 +9,10 @@ import "../../style/homepage.css";
 class Home extends Component{
     render(){
         return(
-            <div className="home">
-                <div className="home-inner">
+            <div className="home m-0 p-0">
+                <div className="home-inner d-flex flex-column min-vh-100">
                     <AppBar/>
-                    <div className="container row mx-auto my-lg-5">
+                    <div className="container row mx-auto my-5">
                         <Category />
                         <ItemMenu />
                     </div>

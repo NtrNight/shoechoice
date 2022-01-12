@@ -27,10 +27,10 @@ export default class Age extends React.Component {
           ></i>
         </div>
         <div className="check-box-age d-flex flex-column my-2">
-          <div className="men-inner form-check d-flex align-items-center">
+          <div className="men-inner form-check">
             <input
               type="radio"
-              className="form-check-input me-2"
+              className="form-check-input"
               name="age"
               id="kids"
               value="Kids"
@@ -39,10 +39,10 @@ export default class Age extends React.Component {
               Kids
             </label>
           </div>
-          <div className="men-inner form-check d-flex align-items-center">
+          <div className="men-inner form-check">
             <input
               type="radio"
-              className="form-check-input me-2"
+              className="form-check-input"
               name="age"
               id="teenager"
               value="Teenager"
@@ -51,10 +51,10 @@ export default class Age extends React.Component {
               Teenager
             </label>
           </div>
-          <div className="men-inner form-check d-flex align-items-center">
+          <div className="men-inner form-check">
             <input
               type="radio"
-              className="form-check-input me-2"
+              className="form-check-input"
               name="age"
               id="adult"
               value="Adult"
